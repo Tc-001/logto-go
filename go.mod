@@ -1,4 +1,4 @@
-module github.com/logto-io/go
+module github.com/Tc-001/logto-go
 
 go 1.19
 
