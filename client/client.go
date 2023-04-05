@@ -111,6 +111,7 @@ func (logtoClient *LogtoClient) GetAccessToken(resource string) (AccessToken, er
 		ClientId:      logtoClient.logtoConfig.AppId,
 		RefreshToken:  refreshToken,
 		Scopes:        []string{},
+		Resource:      resource
 	})
 
 	if refreshTokenErr != nil {
